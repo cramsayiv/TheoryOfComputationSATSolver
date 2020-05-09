@@ -1,3 +1,14 @@
+# Charles Ramsay
+
+# Turn a problem into a SAT instance as Theory of Computation Final Project.
+# Design a set of variables and clauses that can encode the problem.
+# Write a program to take a problem instance as input and generate teft file in cnf form.
+# Give your cnf file to an online SAT solver, such as Minisat.
+# Take the output and translate it back to a solution to the original (non-SAT) problem.
+
+# Given a rectangular grid with some of the squares blocked off, can the remaining squares
+# be covered with non-overlapping dominos? Input will be a string: 3,5,(1,1),(1,5),(2,4)
+
 def make_dominoes(ls_blocked, WIDTH, HEIGHT):
     ls_dominoes = []
     for i in range(WIDTH-1):
